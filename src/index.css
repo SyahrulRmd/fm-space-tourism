@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&family=Rubik:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1, h2, h3, h4, h6 {
+    font-family: 'Bellefair', 'sans-serif';
+  }
+
+  h1 {
+    font-size: 150px;
+  }
+
+  h2 {
+    font-size: 100px;
+  }
+
+  h3 {
+    font-size: 56px;
+  }
+
+  h4 {
+    font-size: 32px;
+  }
+
+  h5 {
+    font-size: 28px;
+    letter-spacing: 4.75px;
+    font-family: 'Barlow Condensed', 'sans';
+  }
+
+  h6 {
+    font-size: 28px;
+  }
+
+  p {
+    font-family: 'Barlow', 'sans';
+  }
+
+  nav a {
+    font-family: 'Barlow Condensed', 'sans';
+    letter-spacing: 2.7px;
+  }
+}
