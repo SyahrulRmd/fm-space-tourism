@@ -176,7 +176,7 @@ const DestinationPage = () => {
               </ul>
             </div>
             <div>
-              <div className="text-center">
+              <div className="xs:text-center sm:text-center">
                 <h1 className="uppercase xs:text-6xl xs:mb-4 sm:text-7xl sm:mb-4">{destination?.name}</h1>
                 <p className="leading-7 text-grayish-blue xs:leading-6 xs:text-sm ">{destination?.description}</p>
               </div>

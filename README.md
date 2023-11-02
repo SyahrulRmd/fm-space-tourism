@@ -26,7 +26,18 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### Home page
+![](./screencapture-home.png)
+
+#### Destination page
+![](./screencapture-destination.png)
+
+#### Crew page
+![](./screencapture-crew.png)
+
+
+#### Technology page
+![](./screencapture-technology.png)
 
 ### Links
 
