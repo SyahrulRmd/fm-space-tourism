@@ -153,7 +153,7 @@ const DestinationPage = () => {
       </div>
       <div className="container mt-14 xs:mt-6 xs:p-5">
         <h5 className="text-white xs:text-center xs:text-base sm:text-xl"><strong className="text-sub-gray">01</strong> PICK YOUR DESTINATION</h5>
-        <div ref={contentRef} className="grid grid-cols-12 text-white sm:pb-20 sm:gap-6 xs:grid-cols-6 sm:grid-cols-6 xs:gap-6 xs:mb-14">
+        <div ref={contentRef} className="grid grid-cols-12 gap-10 text-white sm:pb-20 sm:gap-6 xs:grid-cols-6 sm:grid-cols-6 xs:gap-6 xs:mb-14">
           <div className="col-span-6">
             <img src={destination?.images.webp} alt="" className="mx-auto mt-10 xs:w-40 sm:w-72" />
           </div>
