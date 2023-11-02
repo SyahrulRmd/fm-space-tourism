@@ -4,6 +4,7 @@ import DestinationPage from "./pages/Destination";
 import CrewPage from "./pages/Crew";
 import TechnologyPage from "./pages/Technology";
 
+
 export const router = createBrowserRouter([
   {
     path: '/',
