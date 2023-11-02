@@ -74,7 +74,7 @@ const CrewPage = () => {
               <p className="leading-7 text-grayish-blue xs:leading-6 xs:text-sm">{crew?.bio}</p>
             </div>
             <div className="flex gap-6 mt-6 xs:justify-center sm:justify-center">
-              {crews.map((crew, key) => (
+              {crews.map((_, key) => (
                 <div key={key} onClick={() => setSelectedCrew(key)} className={`w-4 h-4 xs:w-3 xs:h-3 sm:w-3 sm:h-3 rounded-full transition-all cursor-pointer ${key === selectedCrew ? 'bg-white' : 'bg-white/20'}`} />
               ))}
             </div>

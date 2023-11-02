@@ -71,7 +71,7 @@ const TechnologyPage = () => {
         <div ref={contentRef} className="grid items-center grid-cols-12 text-white xs:grid-cols-6 sm:grid-cols-6 xs:gap-9 sm:gap-10">
           <div className="flex items-center col-span-6 gap-10 xs:flex-col sm:flex-col sm:mx-20 xs:mx-5">
             <div className="flex flex-col gap-8 xs:flex-row sm:flex-row sm:justify-center xs:justify-center">
-              {techs.map((tech, key) => (
+              {techs.map((_, key) => (
                 <div
                   key={key}
                   onClick={() => setSelectedTech(key)}
